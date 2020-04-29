@@ -1009,3 +1009,5 @@ background-position: right center;
 #fix46{padding:50px;}
 #fix47{font-size: 18px; font-weight: 500; text-transform: uppercase; padding-top: 10px; color: #222;}
 #fix48{padding-left:5px; height:360px;}
+#disp{height: 140px;
+    border: 1px solid black;}
