@@ -1,86 +1,93 @@
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+
+@media screen and (max-width: 424px) and (min-width: 325px) {
+
+#fix36 {width: 300px;left: 30px;}
+.card {width: 24.1%;}
+
+}
+@media only screen and (max-width: 425px) {
   .header {
-  		height:120px; padding: 20px;
+      height:120px; padding: 20px;
   }
   .hit-the-floor {
-		font-size: 2.5em;
+    font-size: 2.5em;
   }
   #fix2 {
-  	display: none;
+    display: none;
   }
   .button{
-  	display: none;
+    display: none;
   }
   .slideshow-block p{
-  	font-size: 12px;
+    font-size: 12px;
   }
   .slideshow-block span{
-  	font-size: 15px;
+    font-size: 15px;
   }
   .slideshow-container {
-  	height:360px;
+    height:360px;
   }
   .slideshow-container img{
-  	height: 360px;
+    height: 360px;
   }
   #nav {
-  	display: none;
+    display: none;
   }
   .leftcolumn1{
-  	float: none;
-  	width: 100%;
-  	padding: 0;
-  	padding-top: 25px;
+    float: none;
+    width: 100%;
+    padding: 0;
+    padding-top: 25px;
   }
   .rightcolumn1{
-  	float: none;
-  	width: 100%;
-  	padding: 10px;
-  	position: static;
+    float: none;
+    width: 100%;
+    padding: 10px;
+    position: static;
 
   }
   .description{
-  	padding: 0;
-  	padding-top: 20px;
+    padding: 0;
+    padding-top: 20px;
   }
-  #flextable {
-  	font-size: 14px;
-  }
+  /*#flextable {
+    font-size: 14px;
+  }*/
 #link {
-	font-size: 12px;
-	}
+  font-size: 12px;
+  }
 
 body {
-	font-size: 12px;
+  font-size: 12px;
 }
 #fix4{
-	padding: 0;
-	height: auto;
+  padding: 0;
+  height: auto;
 }
 #fix4 span {
-	font-size: 14px;
+  font-size: 14px;
 }
 #fix5{
-	display: none;
+  display: none;
 }
 
 .fix7{
-	padding-top: 20px;
+  padding-top: 20px;
 }
 .textarea {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 #fix8 {
-	padding-top: 10px;
+  padding-top: 10px;
   padding: 25px;
 }
 #fix27 {
-	height:220px;
+  height:220px;
 }
 .fix9{
-	padding: 20px;
+  padding: 20px;
   font-size: 12px;
 }
 .fix9 h2 {
@@ -198,7 +205,7 @@ body {
 #fix41{font-size:16px;}
 #fix42{font-size: 0px;}
 .card{
-      width: 25%;
+      width: 23%;
     height: 100px;
 }
 .card img{
@@ -208,6 +215,8 @@ body {
 #fix43{float: none;width: 100%;}
 #fix44{float: none;width: 100%;}
 #fix45{float: none;width: 100%;}
+#fix46{padding: 25px;}
+#fix47{font-size: 11px;}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -223,16 +232,16 @@ body {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #fix1 {
-  	display: none;
+    display: none;
   }
   #nav02{
-  	display: none;
+    display: none;
   }
   #fix3 {
-  	display: none;
+    display: none;
   }
   #fix6{
-  	display: none;
+    display: none;
   }
   #fix30{
     display: none;

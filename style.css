@@ -554,21 +554,22 @@ ol li {
  
 }
 .res_nav img {
-  height: 196px;
+  height: 200px;
 
 }
 .res_nav_div {
-  float: left;
-  width: 50%;
-   position: relative;
+ float: left;
+    width: 47%;
+    position: relative;
     height: 200px;
-    padding: 4px 4px 0 4px;;
+    /* padding: 4px 4px 0 4px; */
+    margin: 5px;
 }
 .res_nav_div_block {
   position: absolute;
   bottom: 0;
   background-color: rgb(0,0,0,0.5);
-  width: 194.5px;
+  width: 100%;
   color: #fff;
   padding: 5px;
   font-size: 12.38px;
@@ -1005,3 +1006,5 @@ background-position: right center;
 #fix43{float:left; width:30%; padding:10px; color:#777;}
 #fix44{float:left; width:45%; padding:10px;}
 #fix45{float:left; width:25%; padding:10px;}
+#fix46{padding:50px;}
+#fix47{font-size: 18px; font-weight: 500; text-transform: uppercase; padding-top: 10px; color: #222;}
