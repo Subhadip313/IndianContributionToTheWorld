@@ -111,8 +111,12 @@ body {
 #fix14{
   width: 100%;
 }
+#fix50{
+  font-size: 12px;
+}
 #fix15{
-  height:100px; 
+  
+  height: 150px; 
   width:100px; 
 
 }
@@ -222,7 +226,7 @@ body {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 900px) and (min-width: 426px) {
   #fix36{width: 500px; left:50px;}
   #fix49 {
     width: 260px;
@@ -447,7 +451,7 @@ body {
 #fix48{height: auto;}
 } 
 
-}
+
 
 /* Medium devices (landscape tablets, 768px and up) 
 @media only screen and (min-width: 768px) {
@@ -455,12 +459,59 @@ body {
 }*/ 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
- 
-} 
+@media screen and (min-width:901px) and (max-width:1299px) {
+ #fix1{display: none;}
+ #nav02{
+    display: none;
+  }
+  #fix3 {
+    display: none;
+  }
+  #fix6{
+    display: none;
+  }
+  #fix30{
+    display: none;
+  }
+  #fix36{
+    display: none;
+  }
+  #fix37{display: none;}
+  #fix38{display: none;}
+  #fix17{height: auto;width: 100%;}
+  #fix20{padding: 15px;}
+#fix20 img{
+  height:auto; width:100%; padding:0;
+}
+.navigation img {width: 230px; height: 185px;} 
+.hit-the-floor{font-size: 2.5em;}
+.slideshow-container{height: 345px;}
+.slideshow-container img{height: 345px;}
+.button{display: none;}
+.top10 {height: 373px;}
+.top10 img {height: 373px;}
+.slideshow-block2{font-size: 1.5em;}
+.navigation {height: 370px;}
+.navigation tr {height: 185px;}
+.navigation td {height: 185px;}
+.sideboxnav {height: 185px;}
+.slideshow-block3 {font-size: 11px;}
+#fix48{height: auto;}
+#fix48 img{
+  height: 200px;
+  width: 250px;
+}
+.text1{font-size: 12px;}
+#numberList {font-size: 11px;}
+#fix8{padding: 0;}
+.heading{font-size: 16px;}
+#fix21{width: 440px;}
+#fix18{width: 400px;}
+#fix19{width: 310px;}
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
    #fix1 {
     display: none;
   }
@@ -482,4 +533,3 @@ body {
   #fix37{display: none;}
   #fix38{display: none;}
 } 
-}

@@ -309,6 +309,7 @@ color:#111;
 .top10:hover .overlay {
   opacity: 1;
 }
+.top10 img{height: 503px;}
 
 .sideboxnav {
   position: relative; 
