@@ -747,6 +747,7 @@ border-top: 35px solid #766dff;
   padding: 16px;
 
 }
+
 /*special navbar*/
 #navbar {
   background-color: #111;
@@ -797,6 +798,9 @@ border-top: 35px solid #766dff;
   top:20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
    transition: 0.4s;
+}
+.newcard img{
+  height:300px; border-radius:8px 8px 0 0;
 }
 .card {
   float:left; 

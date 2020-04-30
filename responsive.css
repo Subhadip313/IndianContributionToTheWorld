@@ -297,7 +297,7 @@ body {
   height: auto;
 }
 #fix4 span {
-  font-size: 18px;
+  font-size: 20px; font-weight: 600;
 }
 #fix5{
   display: none;
@@ -508,6 +508,19 @@ body {
 #fix21{width: 440px;}
 #fix18{width: 400px;}
 #fix19{width: 310px;}
+#fix22{height: 345px;}
+#fix22 img {height: 345px;}
+.contentclm{padding: 20px; padding-top: 30px;}
+#fix35{width: 800px;left: 11%}
+#about {margin: 50px;}
+.newcard{width: 30%; height: 300px;}
+.newcard img {height: 200px;}
+.card {width: 29%; height: 200px;}
+.card img {height: 200px;}
+#contact{padding: 120px 50px;}
+
+#fix44{width: 40%}
+#fix45{width: 30%}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
