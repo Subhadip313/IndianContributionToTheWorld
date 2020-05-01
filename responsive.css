@@ -5,9 +5,17 @@
 
 #fix36 {width: 300px;left: 30px;}
 .card {width: 24.1%;}
-
+#numberList{
+    
+    height: auto;
+  }
 }
 @media only screen and (max-width: 425px) {
+
+  #numberList{
+    
+    height: auto;
+  }
   .header {
       height:120px; padding: 20px;
   }
